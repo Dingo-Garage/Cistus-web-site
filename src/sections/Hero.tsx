@@ -184,9 +184,9 @@ export default function ContactSection() {
                   onChange={handleChange}
                   options={[
                     'Any',
-                    'Option A – Immediate Yield',
-                    'Option B – Strategic Growth',
-                    'Option C – Ultra Large',
+                    'Option A – Residential Core',
+                    'Option B – Residency & Growth',
+                    'Option C – Institutional & Ultra-Prime',
                   ]}
                 />
               </Row>

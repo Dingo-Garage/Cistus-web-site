@@ -29,12 +29,12 @@ export const investmentTypes: InvestmentType[] = [
   {
     id: 'A',
     slug: 'immediate-yield',
-    title: 'Immediate Yield',
+    title: 'Residential Core',
     subtitle: 'Option A',
     tagline: 'Ready-to-move residential units in Milan\'s prime locations.',
     description: [
-      'Invest in ready-to-rent properties in Milan\'s prime locations. Optimised for immediate rental to students or young professionals.',
-      'Buy-to-let focused on the high-demand students & young professional rental market in Milan. Ready-to-move-in apartments situated within our existing, curated Milan portfolio.',
+      'Unlock the potential of Europe\'s most dynamic rental hub with The Milan Urban Collection. Specializing in the €350k–€500k bracket, this tier focuses on direct acquisition of residential assets in Milan\'s high-demand districts. We target strategic redevelopment projects in areas where new supply is scarce, transforming historic spaces into premium, "ready-to-move-in" apartments. With Milan\'s rental market currently experiencing a supply crunch, these properties are perfectly positioned for high-occupancy leasing to young professionals, international students, and "digital nomads."',
+      'Whether you are looking for a turnkey pied-à-terre or a high-yield rental engine, our residential portfolio combines capital appreciation with steady cash flow. Secure your foothold in Italy\'s financial capital and capitalize on the city\'s sophisticated urban regeneration and rising "Green Home" energy standards.',
     ],
     ticketSize: '€250k – €2.0M',
     targetYield: '6% – 9%',
@@ -123,12 +123,12 @@ export const investmentTypes: InvestmentType[] = [
   {
     id: 'B',
     slug: 'strategic-growth',
-    title: 'Strategic Growth',
+    title: 'Residency & Growth',
     subtitle: 'Option B',
     tagline: 'Direct shareholding in Cistus Properties for revitalisation projects.',
     description: [
-      'Invest directly in Cistus Property shareholding to access larger deals for revitalisation projects. Boutique residential buildings strategically located in Milan, focusing on structural and aesthetic transformation.',
-      'Full transformation of aging assets sold to local end-users. Value creation occurs at the holding level across multiple projects.',
+      'The Italian Gateway Fund offers a streamlined pathway to European residency through strategic equity investment. Designed for investors seeking the Italy Investor Visa (Golden Visa), this option provides a direct shareholding in Cistus Property with capital commitments ranging from €500,000 to €3 Million. By subscribing to our Class B Shares, you benefit from a structured financial vehicle that features preferred economic weights and prioritized returns, blending the security of real estate with the agility of private equity.',
+      'Beyond the financial upside, this pathway secures your right to live, work, and travel freely within the Schengen Area. Our team handles the technical compliance of the €500k "Company Investment" route, ensuring your capital is deployed in a transparent, growth-oriented Italian enterprise while you enjoy the lifestyle benefits of Italian residency.',
     ],
     ticketSize: '€500k – €3.0M',
     targetYield: '12% – 18%',
@@ -173,12 +173,12 @@ export const investmentTypes: InvestmentType[] = [
   {
     id: 'C',
     slug: 'ultra-large',
-    title: 'Ultra Large',
+    title: 'Institutional & Ultra-Prime',
     subtitle: 'Option C',
     tagline: 'Trophy "Blue Chip" assets for generational wealth preservation.',
     description: [
-      'Buy-and-hold strategy focused on trophy Alternative asset classes such as Hotels and Commercial spaces. Pre-leased property with immediate rental yield from first day.',
-      'Highest resilience to economic downturns; "Blue Chip" real estate capitalising on trophy assets for generational wealth preservation and personal lifestyle use.',
+      'For institutional players and UHNWIs, The Italian Legacy Portfolio provides exclusive access to "Trophy Assets" and Blue-chip deals ranging from $10M to over $100M. This elite tier spans Italy\'s most prestigious asset classes, including world-class hospitality in Tuscany and the Lakes, prime commercial hubs in Rome and Milan, and iconic residential estates. In a market characterized by structural under-supply, we source off-market opportunities that represent the pinnacle of Italian architectural heritage and modern luxury. These high-value acquisitions are selected for their long-term wealth preservation qualities and inflation-hedging capabilities.',
+      'From landmark hotel conversions to large-scale urban developments, our advisory ensures seamless execution of complex transactions. Invest in more than just real estate; acquire a piece of Italian history with assets that define the global standard for prestige and performance.',
     ],
     ticketSize: '€10M – €80M',
     targetYield: 'Stable Core Income',

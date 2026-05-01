@@ -14,11 +14,11 @@ Sito vetrina statico per Marco Pilia, real estate advisor specializzato in inves
 - **Homepage**
   - Hero — "The Italian Investment Gateway"
   - Strategic Rationale — 6 vantaggi dell'investimento in Italia
-  - Investment Strategy — 3 card cliccabili (Immediate Yield, Strategic Growth, Ultra Large)
+  - Investment Strategy — 3 card cliccabili (Residential Core, Residency & Growth, Institutional & Ultra-Prime)
 - **Pagine Investment** (`/investment/:slug`)
-  - Option A — Immediate Yield
-  - Option B — Strategic Growth
-  - Option C — Ultra Large
+  - Option A — Residential Core
+  - Option B — Residency & Growth
+  - Option C — Institutional & Ultra-Prime
 - **Contact** — form per richieste di consulenza (pronto per FormSubmit.co)
 
 ## Comandi

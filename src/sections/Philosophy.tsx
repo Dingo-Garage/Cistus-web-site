@@ -17,7 +17,7 @@ const benefits = [
   },
   {
     title: 'Investor Visa Synergy',
-    desc: 'Strategic opportunity to align real estate investments with the Italian Investor Visa program (starting at €250k).',
+    desc: 'Strategic opportunity to align real estate investments with the Italian Investor Visa program (starting at €500k).',
     icon: '✈',
   },
   {

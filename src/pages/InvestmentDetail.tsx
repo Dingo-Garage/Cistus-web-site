@@ -196,6 +196,35 @@ export default function InvestmentDetail() {
               {p}
             </p>
           ))}
+          {slug === 'strategic-growth' && (
+            <button
+              onClick={() => navigate('/golden-visa')}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.backgroundColor = '#C9A962'
+                e.currentTarget.style.color = '#0b0b0b'
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.backgroundColor = 'transparent'
+                e.currentTarget.style.color = '#C9A962'
+              }}
+              style={{
+                marginTop: '20px',
+                fontSize: '13px',
+                fontWeight: 500,
+                letterSpacing: '0.14em',
+                padding: '16px 36px',
+                border: '1px solid #C9A962',
+                backgroundColor: 'transparent',
+                color: '#C9A962',
+                cursor: 'pointer',
+                textTransform: 'uppercase',
+                fontFamily: '"Helvetica Neue", sans-serif',
+                transition: 'all 0.3s ease',
+              }}
+            >
+              Golden Visa →
+            </button>
+          )}
         </div>
 
         {/* Stats grid */}

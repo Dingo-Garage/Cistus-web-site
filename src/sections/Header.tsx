@@ -69,6 +69,12 @@ export default function Header({ scrollRef, forceLight = false }: HeaderProps) {
     setMobileOpen(false)
   }
 
+  const goToGoldenVisa = () => {
+    navigate('/golden-visa')
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+    setMobileOpen(false)
+  }
+
   const bgColor = overHero ? 'transparent' : 'rgba(11,11,11,0.95)'
   const borderColor = overHero ? 'rgba(201,169,98,0.3)' : 'rgba(201,169,98,0.5)'
 
@@ -181,6 +187,7 @@ export default function Header({ scrollRef, forceLight = false }: HeaderProps) {
                   </div>
                 )}
               </div>
+              <MobileNavItem label="Golden Visa" onClick={goToGoldenVisa} />
               <MobileNavItem label="Strategy" onClick={() => handleNavClick('#strategy')} />
               <MobileNavItem label="Contact" onClick={() => handleNavClick('#contact')} />
             </div>
@@ -250,6 +257,7 @@ export default function Header({ scrollRef, forceLight = false }: HeaderProps) {
             )}
           </div>
 
+          <NavItem label="Golden Visa" overHero={overHero} onClick={goToGoldenVisa} />
           <NavItem label="Strategy" overHero={overHero} onClick={() => handleNavClick('#strategy')} />
           <NavItem label="Contact" overHero={overHero} onClick={() => handleNavClick('#contact')} />
         </nav>

@@ -9,6 +9,7 @@ import Footer from './sections/Footer'
 import Preloader from './sections/Preloader'
 import InvestmentDetail from './pages/InvestmentDetail'
 import About from './pages/About'
+import GoldenVisa from './pages/GoldenVisa'
 import PasswordGate from './components/PasswordGate'
 function Home() {
   return (
@@ -55,6 +56,13 @@ function App() {
         <>
           <Header scrollRef={scrollRef} forceLight={true} />
           <About />
+          <Footer />
+        </>
+      } />
+      <Route path="/golden-visa" element={
+        <>
+          <Header scrollRef={scrollRef} forceLight={true} />
+          <GoldenVisa />
           <Footer />
         </>
       } />
